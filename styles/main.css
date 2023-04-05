@@ -1,0 +1,378 @@
+body {
+  background-color: #EFDECD;
+  text-align: center;
+  font-family: monospace;
+}
+
+h1 {
+  font-size: 110pt;
+  margin-top: 80px;
+}
+
+h2 {
+  font-size: 40pt;
+  margin-top: 100px;
+}
+
+.Avatar {
+  border: 5px solid #000000;
+  border-radius: 50%;
+  margin-top: 100px;
+  max-width: 100%;
+  height: auto;
+}
+
+h3 {
+  font-size: 20pt;
+  margin-top: 100px;
+}
+
+p {
+  font-size: 20pt;
+  margin-top: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#ABOUTME {
+  font-size: 80pt;
+  margin-top: 20px;
+}
+
+#Introduction {
+  font-size: 30pt;
+  margin-top: 50px;
+}
+
+#Intro {
+  font-size: 12pt;
+  margin-top: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#AboutmeH {
+  font-size: 15pt;
+  margin: 30px 50px 0px 50px;
+}
+
+#Positive {
+  font-size: 12pt;
+  margin-top: 5px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#BLOG {
+  font-size: 80pt;
+  margin-top: 20px;
+}
+
+#Blog1 {
+  font-size: 20pt;
+  margin-top: 50px;
+}
+
+#CONTACTDETAILS {
+  font-size: 80pt;
+  margin-top: 20px;
+}
+
+#Contact {
+  font-size: 20pt;
+  margin-top: 50px;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: burlywood;
+  height: 80px;
+  width: 100%;
+}
+
+nav ul {
+  float: left;
+  margin-left: 80px;
+}
+
+nav ul li {
+  display: inline;
+  line-height: 80px;
+  margin: 5px;
+}
+
+nav ul li a {
+  color: white;
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+a.active,a:hover {
+  background: #9F8170;
+}
+
+@media (max-width: 480px) and (min-width: 0px) {
+  h1 {
+    font-size: 60pt;
+    margin-top: 50px;
+  }
+  h2 {
+    font-size: 20pt;
+    margin-top: 70px;
+  }
+  .Avatar {
+    border: 5px solid #000000;
+    border-radius: 50%;
+    margin-top: 100px;
+    max-width: 100%;
+    height: 250px;
+  }
+  h3 {
+    font-size: 18pt;
+    margin-top: 70px;
+  }
+  p {
+    font-size: 12pt;
+    margin-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  #ABOUTME {
+    font-size: 40pt;
+    margin-top: 20px;
+  }
+  #AboutmeH {
+    font-size: 15pt;
+    margin: 30px 20px 0px 20px;
+  }
+  #Introduction {
+    font-size: 20pt;
+    margin-top: 30px;
+  }
+  #Intro {
+    font-size: 11pt;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  #Positive {
+    font-size: 11pt;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  #BLOG {
+    font-size: 40pt;
+    margin-top: 20px;
+  }
+  #Blog1 {
+    font-size: 20pt;
+    margin-top: 50px;
+  }
+  #CONTACTDETAILS {
+    font-size: 40pt;
+    margin-top: 20px;
+  }
+  #Contact {
+    font-size: 15pt;
+    margin-top: 50px;
+  }
+  nav {
+    background-color: burlywood;
+    height: 70px;
+    width: 100%;
+  }
+  nav ul {
+    float: left;
+    margin-left: 20px;
+  }
+  nav ul li {
+    display: inline;
+    line-height: 75px;
+    margin: 0.05px;
+  }
+  nav ul li a {
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 3px;
+  }
+}
+
+@media (max-width: 720px) and (min-width: 481px) {
+  h1 {
+    font-size: 80pt;
+    margin-top: 50px;
+  }
+  h2 {
+    font-size: 30pt;
+    margin-top: 70px;
+  }
+  .Avatar {
+    border: 5px solid #000000;
+    border-radius: 50%;
+    margin-top: 100px;
+    max-width: 100%;
+    height: 350px;
+  }
+  h3 {
+    font-size: 20pt;
+    margin-top: 70px;
+  }
+  p {
+    font-size: 12pt;
+    margin-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  #ABOUTME {
+    font-size: 60pt;
+    margin-top: 20px;
+  }
+  #AboutmeH {
+    font-size: 14pt;
+    margin: 30px 50px 0px 50px;
+  }
+  #Introduction {
+    font-size: 25pt;
+    margin-top: 50px;
+  }
+  #Intro {
+    font-size: 11pt;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  #BLOG {
+    font-size: 60pt;
+    margin-top: 20px;
+  }
+  #Blog1 {
+    font-size: 20pt;
+    margin-top: 50px;
+  }
+  #CONTACTDETAILS {
+    font-size: 60pt;
+    margin-top: 20px;
+  }
+  #Contact {
+    font-size: 18pt;
+    margin-top: 50px;
+  }
+  nav {
+    background-color: burlywood;
+    height: 70px;
+    width: 100%;
+  }
+  nav ul {
+    float: left;
+    margin-left: 65px;
+  }
+  nav ul li {
+    display: inline;
+    line-height: 70px;
+    margin: 5px;
+  }
+  nav ul li a {
+    color: white;
+    font-size: 22px;
+    padding: 10px;
+    border-radius: 3px;
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 721px) {
+  h1 {
+    font-size: 120pt;
+    margin-top: 50px;
+  }
+  h2 {
+    font-size: 40pt;
+    margin-top: 70px;
+  }
+  .Avatar {
+    border: 8px solid #000000;
+    border-radius: 50%;
+    margin-top: 100px;
+    max-width: 100%;
+    height: auto;
+  }
+  h3 {
+    font-size: 30pt;
+    margin-top: 70px;
+  }
+  p {
+    font-size: 18pt;
+    margin-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  #ABOUTME {
+    font-size: 80pt;
+    margin-top: 20px;
+  }
+  #AboutmeH {
+    font-size: 20pt;
+    margin: 30px 50px 0px 50px;
+  }
+  #Introduction {
+    font-size: 40pt;
+    margin-top: 50px;
+  }
+  #Intro {
+    font-size: 17pt;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  #Positive {
+    font-size: 17pt;
+    margin-top: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  #BLOG {
+    font-size: 80pt;
+    margin-top: 20px;
+  }
+  #Blog1 {
+    font-size: 20pt;
+    margin-top: 50px;
+  }
+  #CONTACTDETAILS {
+    font-size: 80pt;
+    margin-top: 20px;
+  }
+  #Contact {
+    font-size: 20pt;
+    margin-top: 50px;
+  }
+  nav {
+    background-color: burlywood;
+    height: 95px;
+    width: 100%;
+  }
+  nav ul {
+    float: left;
+    margin-left: 70px;
+  }
+  nav ul li {
+    display: inline;
+    line-height: 95px;
+    margin: 10px;
+  }
+  nav ul li a {
+    color: white;
+    font-size: 35px;
+    padding: 10px;
+    border-radius: 3px;
+  }
+}
