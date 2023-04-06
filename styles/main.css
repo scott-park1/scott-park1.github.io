@@ -45,19 +45,19 @@ p {
 }
 
 #Intro {
-  font-size: 12pt;
+  font-size: 14pt;
   margin-top: 10px;
   margin-left: 50px;
   margin-right: 50px;
 }
 
 #AboutmeH {
-  font-size: 15pt;
+  font-size: 17pt;
   margin: 30px 50px 0px 50px;
 }
 
 #Positive {
-  font-size: 12pt;
+  font-size: 14pt;
   margin-top: 5px;
   margin-left: 50px;
   margin-right: 50px;
@@ -119,6 +119,61 @@ a.active,a:hover {
   background: #9F8170;
 }
 
+#Whatisthedifference {
+  font-size: 40pt;
+  margin: 50px 50px 0px 50px;
+}
+
+#Difference {
+  font-size: 23px;
+  margin: 30px 50px 0px 50px;
+}
+
+#DifferenceH {
+  font-size: 33px;
+  margin: 60px 50px 0px 50px;
+}
+
+.CSSBOXMODEL {
+  margin: 30px 50px 0px 50px;
+  border: 3px solid #000000;
+}
+
+.Margin {
+  margin: 30px 50px 0px 50px;
+  border: 3px solid #000000;
+}
+
+.Border {
+  margin: 30px 50px 0px 50px;
+  border: 3px solid #000000;
+}
+
+.Padding {
+  margin: 30px 50px 0px 50px;
+  border: 3px solid #000000;
+}
+
+#Tehoutaewa {
+  font-size: 80pt;
+  margin: 50px 50px 0px 50px;
+}
+
+#Ekore {
+  font-size: 27pt;
+  margin: 50px 50px 0px 50px;
+}
+
+#November {
+  font-size: 17pt;
+  margin: 50px 50px 0px 50px;
+}
+
+#Story {
+  font-size: 15pt;
+  margin: 50px 50px 0px 50px;
+}
+
 @media (max-width: 480px) and (min-width: 0px) {
   h1 {
     font-size: 60pt;
@@ -174,7 +229,7 @@ a.active,a:hover {
     margin-top: 20px;
   }
   #Blog1 {
-    font-size: 20pt;
+    font-size: 16pt;
     margin-top: 50px;
   }
   #CONTACTDETAILS {
@@ -182,7 +237,7 @@ a.active,a:hover {
     margin-top: 20px;
   }
   #Contact {
-    font-size: 15pt;
+    font-size: 14pt;
     margin-top: 50px;
   }
   nav {
@@ -205,6 +260,54 @@ a.active,a:hover {
     padding: 10px;
     border-radius: 3px;
   }
+  #Whatisthedifference {
+    font-size: 37pt;
+    margin: 50px 35px 0px 35px;
+  }
+  #Difference {
+    font-size: 17px;
+    margin: 20px 35px 0px 35px;
+  }
+  #DifferenceH {
+    font-size: 22px;
+    margin: 50px 35px 0px 35px;
+  }
+  .CSSBOXMODEL {
+    margin: 30px 50px 0px 50px;
+    border: 2px solid #000000;
+    max-width: 80%;
+  }
+  .Margin {
+    margin: 30px 50px 0px 50px;
+    border: 2px solid #000000;
+    max-width: 80%;
+  }
+  .Border {
+    margin: 30px 50px 0px 50px;
+    border: 2px solid #000000;
+    max-width: 80%;
+  }
+  .Padding {
+    margin: 30px 50px 0px 50px;
+    border: 2px solid #000000;
+    max-width: 80%;
+  }
+  #Tehoutaewa {
+    font-size: 45pt;
+    margin: 50px 35px 0px 35px;
+  }
+  #Ekore {
+    font-size: 20pt;
+    margin: 50px 35px 0px 35px;
+  }
+  #November {
+    font-size: 15pt;
+    margin: 40px 35px 0px 35px;
+  }
+  #Story {
+    font-size: 13pt;
+    margin: 30px 35px 0px 35px;
+  }
 }
 
 @media (max-width: 720px) and (min-width: 481px) {
@@ -224,11 +327,11 @@ a.active,a:hover {
     height: 350px;
   }
   h3 {
-    font-size: 20pt;
+    font-size: 23pt;
     margin-top: 70px;
   }
   p {
-    font-size: 12pt;
+    font-size: 14pt;
     margin-top: 10px;
     padding-left: 50px;
     padding-right: 50px;
@@ -238,18 +341,24 @@ a.active,a:hover {
     margin-top: 20px;
   }
   #AboutmeH {
-    font-size: 14pt;
-    margin: 30px 50px 0px 50px;
+    font-size: 15pt;
+    margin: 30px 35px 0px 35px;
   }
   #Introduction {
-    font-size: 25pt;
+    font-size: 27pt;
     margin-top: 50px;
   }
   #Intro {
-    font-size: 11pt;
-    margin-top: 10px;
-    margin-left: 50px;
-    margin-right: 50px;
+    font-size: 13pt;
+    margin-top: 15px;
+    margin-left: 35px;
+    margin-right: 35px;
+  }
+  #Positive {
+    font-size: 13pt;
+    margin-top: 5px;
+    margin-left: 35px;
+    margin-right: 35px;
   }
   #BLOG {
     font-size: 60pt;
@@ -264,7 +373,7 @@ a.active,a:hover {
     margin-top: 20px;
   }
   #Contact {
-    font-size: 18pt;
+    font-size: 17pt;
     margin-top: 50px;
   }
   nav {
@@ -286,6 +395,54 @@ a.active,a:hover {
     font-size: 22px;
     padding: 10px;
     border-radius: 3px;
+  }
+  #Whatisthedifference {
+    font-size: 40pt;
+    margin: 50px 35px 0px 35px;
+  }
+  #Difference {
+    font-size: 19px;
+    margin: 20px 35px 0px 35px;
+  }
+  #DifferenceH {
+    font-size: 30px;
+    margin: 50px 35px 0px 35px;
+  }
+  .CSSBOXMODEL {
+    margin: 30px 50px 0px 50px;
+    border: 2px solid #000000;
+    max-width: 60%;
+  }
+  .Margin {
+    margin: 30px 50px 0px 50px;
+    border: 2px solid #000000;
+    max-width: 60%;
+  }
+  .Border {
+    margin: 30px 50px 0px 50px;
+    border: 2px solid #000000;
+    max-width: 75%;
+  }
+  .Padding {
+    margin: 30px 50px 0px 50px;
+    border: 2px solid #000000;
+    max-width: 60%;
+  }
+  #Tehoutaewa {
+    font-size: 60pt;
+    margin: 50px 35px 0px 35px;
+  }
+  #Ekore {
+    font-size: 25pt;
+    margin: 50px 40px 0px 40px;
+  }
+  #November {
+    font-size: 18pt;
+    margin: 40px 35px 0px 35px;
+  }
+  #Story {
+    font-size: 14pt;
+    margin: 30px 35px 0px 35px;
   }
 }
 
@@ -344,7 +501,7 @@ a.active,a:hover {
     margin-top: 20px;
   }
   #Blog1 {
-    font-size: 20pt;
+    font-size: 23pt;
     margin-top: 50px;
   }
   #CONTACTDETAILS {
@@ -352,7 +509,7 @@ a.active,a:hover {
     margin-top: 20px;
   }
   #Contact {
-    font-size: 20pt;
+    font-size: 23pt;
     margin-top: 50px;
   }
   nav {
@@ -374,5 +531,53 @@ a.active,a:hover {
     font-size: 35px;
     padding: 10px;
     border-radius: 3px;
+  }
+  #Whatisthedifference {
+    font-size: 45pt;
+    margin: 50px 35px 0px 35px;
+  }
+  #Difference {
+    font-size: 23px;
+    margin: 20px 35px 0px 35px;
+  }
+  #DifferenceH {
+    font-size: 37px;
+    margin: 50px 35px 0px 35px;
+  }
+  .CSSBOXMODEL {
+    margin: 30px 50px 0px 50px;
+    border: 2px solid #000000;
+    max-width: 60%;
+  }
+  .Margin {
+    margin: 30px 50px 0px 50px;
+    border: 2px solid #000000;
+    max-width: 60%;
+  }
+  .Border {
+    margin: 30px 50px 0px 50px;
+    border: 2px solid #000000;
+    max-width: 75%;
+  }
+  .Padding {
+    margin: 30px 50px 0px 50px;
+    border: 2px solid #000000;
+    max-width: 60%;
+  }
+  #Tehoutaewa {
+    font-size: 75pt;
+    margin: 50px 35px 0px 35px;
+  }
+  #Ekore {
+    font-size: 30pt;
+    margin: 50px 40px 0px 40px;
+  }
+  #November {
+    font-size: 24pt;
+    margin: 40px 35px 0px 35px;
+  }
+  #Story {
+    font-size: 18pt;
+    margin: 30px 35px 0px 35px;
   }
 }
