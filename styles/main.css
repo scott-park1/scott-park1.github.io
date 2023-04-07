@@ -28,10 +28,13 @@ h3 {
 }
 
 p {
-  font-size: 20pt;
-  margin-top: 10px;
-  padding-left: 50px;
-  padding-right: 50px;
+  font-size: 16pt;
+  margin: 20px 90px 0px 90px;
+}
+
+#Last {
+  font-size: 16pt;
+  margin: 20px 90px 50px 90px;
 }
 
 #ABOUTME {
@@ -40,27 +43,13 @@ p {
 }
 
 #Introduction {
-  font-size: 30pt;
+  font-size: 35pt;
   margin-top: 50px;
 }
 
 #Intro {
-  font-size: 14pt;
-  margin-top: 10px;
-  margin-left: 50px;
-  margin-right: 50px;
-}
-
-#AboutmeH {
-  font-size: 17pt;
-  margin: 30px 50px 0px 50px;
-}
-
-#Positive {
-  font-size: 14pt;
-  margin-top: 5px;
-  margin-left: 50px;
-  margin-right: 50px;
+  font-size: 16pt;
+  margin: 50px 50px 0px 50px;
 }
 
 #BLOG {
@@ -69,7 +58,7 @@ p {
 }
 
 #Blog1 {
-  font-size: 20pt;
+  font-size: 21pt;
   margin-top: 50px;
 }
 
@@ -79,7 +68,7 @@ p {
 }
 
 #Contact {
-  font-size: 20pt;
+  font-size: 21pt;
   margin-top: 50px;
 }
 
@@ -117,6 +106,7 @@ nav ul li a {
 
 a.active,a:hover {
   background: #9F8170;
+  text-decoration: underline;
 }
 
 #Whatisthedifference {
@@ -125,13 +115,23 @@ a.active,a:hover {
 }
 
 #Difference {
-  font-size: 23px;
+  font-size: 19px;
   margin: 30px 50px 0px 50px;
 }
 
 #DifferenceH {
-  font-size: 33px;
+  font-size: 30px;
   margin: 60px 50px 0px 50px;
+}
+
+#DifferenceFirst {
+  font-size: 19px;
+  margin: 90px 50px 0px 50px;
+}
+
+#DifferenceLast {
+  font-size: 19px;
+  margin: 30px 50px 50px 50px;
 }
 
 .CSSBOXMODEL {
@@ -155,23 +155,85 @@ a.active,a:hover {
 }
 
 #Tehoutaewa {
-  font-size: 80pt;
+  font-size: 50pt;
   margin: 50px 50px 0px 50px;
 }
 
 #Ekore {
-  font-size: 27pt;
+  font-size: 22pt;
   margin: 50px 50px 0px 50px;
 }
 
 #November {
-  font-size: 17pt;
+  font-size: 16pt;
   margin: 50px 50px 0px 50px;
 }
 
 #Story {
-  font-size: 15pt;
+  font-size: 14pt;
   margin: 50px 50px 0px 50px;
+}
+
+#StoryLast {
+  font-size: 14pt;
+  margin: 50px 50px 50px 50px;
+}
+
+#Identity {
+  font-size: 40pt;
+  margin: 50px 50px 0px 50px;
+}
+
+#Question {
+  font-size: 22pt;
+  margin: 60px 50px 0px 50px;
+}
+
+#Answer {
+  font-size: 14pt;
+  margin: 30px 50px 0px 50px;
+}
+
+#QuestionFirst {
+  font-size: 22pt;
+  margin: 90px 50px 0px 50px;
+}
+
+#AnswerLast {
+  font-size: 14pt;
+  margin: 30px 50px 50px 50px;
+}
+
+#Learning {
+  font-size: 40pt;
+  margin: 50px 50px 0px 50px;
+}
+
+#Questions {
+  font-size: 22pt;
+  margin: 60px 50px 0px 50px;
+}
+
+#Answers {
+  font-size: 14pt;
+  margin: 30px 50px 0px 50px;
+}
+
+#QuestionsFirst {
+  font-size: 22pt;
+  margin: 90px 50px 0px 50px;
+}
+
+#AnswersLast {
+  font-size: 14pt;
+  margin: 30px 50px 50px 50px;
+}
+
+#Positive {
+  font-size: 14pt;
+  margin-top: 5px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 @media (max-width: 480px) and (min-width: 0px) {
@@ -191,22 +253,20 @@ a.active,a:hover {
     height: 250px;
   }
   h3 {
-    font-size: 18pt;
+    font-size: 15pt;
     margin-top: 70px;
   }
   p {
     font-size: 12pt;
-    margin-top: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
+    margin: 20px 70px 0px 70px;
+  }
+  #Last {
+    font-size: 12pt;
+    margin: 20px 90px 50px 90px;
   }
   #ABOUTME {
     font-size: 40pt;
     margin-top: 20px;
-  }
-  #AboutmeH {
-    font-size: 15pt;
-    margin: 30px 20px 0px 20px;
   }
   #Introduction {
     font-size: 20pt;
@@ -214,15 +274,7 @@ a.active,a:hover {
   }
   #Intro {
     font-size: 11pt;
-    margin-top: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-  #Positive {
-    font-size: 11pt;
-    margin-top: 5px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 20px 20px 0px 20px;
   }
   #BLOG {
     font-size: 40pt;
@@ -264,13 +316,21 @@ a.active,a:hover {
     font-size: 37pt;
     margin: 50px 35px 0px 35px;
   }
+  #DifferenceFirst {
+    font-size: 16px;
+    margin: 40px 35px 0px 35px;
+  }
   #Difference {
-    font-size: 17px;
+    font-size: 16px;
     margin: 20px 35px 0px 35px;
   }
   #DifferenceH {
     font-size: 22px;
     margin: 50px 35px 0px 35px;
+  }
+  #DifferenceLast {
+    font-size: 16px;
+    margin: 20px 35px 50px 35px;
   }
   .CSSBOXMODEL {
     margin: 30px 50px 0px 50px;
@@ -297,7 +357,7 @@ a.active,a:hover {
     margin: 50px 35px 0px 35px;
   }
   #Ekore {
-    font-size: 20pt;
+    font-size: 19pt;
     margin: 50px 35px 0px 35px;
   }
   #November {
@@ -307,6 +367,54 @@ a.active,a:hover {
   #Story {
     font-size: 13pt;
     margin: 30px 35px 0px 35px;
+  }
+  #StoryLast {
+    font-size: 13pt;
+    margin: 30px 35px 50px 35px;
+  }
+  #Identity {
+    font-size: 37pt;
+    margin: 50px 35px 0px 35px;
+  }
+  #Question {
+    font-size: 18pt;
+    margin: 60px 35px 0px 35px;
+  }
+  #Answer {
+    font-size: 12pt;
+    margin: 30px 35px 0px 35px;
+  }
+  #QuestionFirst {
+    font-size: 18pt;
+    margin: 70px 35px 0px 35px;
+  }
+  #AnswerLast {
+    font-size: 12pt;
+    margin: 30px 35px 50px 35px;
+  }
+  #Learning {
+    font-size: 37pt;
+    margin: 50px 35px 0px 35px;
+  }
+  #Questions {
+    font-size: 18pt;
+    margin: 60px 35px 0px 35px;
+  }
+  #Answers {
+    font-size: 12pt;
+    margin: 30px 35px 0px 35px;
+  }
+  #QuestionsFirst {
+    font-size: 18pt;
+    margin: 70px 35px 0px 35px;
+  }
+  #AnswersLast {
+    font-size: 12pt;
+    margin: 30px 35px 50px 35px;
+  }
+  #Positive {
+    font-size: 12pt;
+    margin: 5px 20px 0px 20px;
   }
 }
 
@@ -327,45 +435,35 @@ a.active,a:hover {
     height: 350px;
   }
   h3 {
-    font-size: 23pt;
+    font-size: 20pt;
     margin-top: 70px;
   }
   p {
     font-size: 14pt;
-    margin-top: 10px;
-    padding-left: 50px;
-    padding-right: 50px;
+    margin: 10px 50px 0px 50px;
+  }
+  #Last {
+    font-size: 14pt;
+    margin: 20px 80px 50px 80px;
   }
   #ABOUTME {
     font-size: 60pt;
     margin-top: 20px;
-  }
-  #AboutmeH {
-    font-size: 15pt;
-    margin: 30px 35px 0px 35px;
   }
   #Introduction {
     font-size: 27pt;
     margin-top: 50px;
   }
   #Intro {
-    font-size: 13pt;
-    margin-top: 15px;
-    margin-left: 35px;
-    margin-right: 35px;
-  }
-  #Positive {
-    font-size: 13pt;
-    margin-top: 5px;
-    margin-left: 35px;
-    margin-right: 35px;
+    font-size: 12pt;
+    margin: 15px 35px 0px 35px;
   }
   #BLOG {
     font-size: 60pt;
     margin-top: 20px;
   }
   #Blog1 {
-    font-size: 20pt;
+    font-size: 19pt;
     margin-top: 50px;
   }
   #CONTACTDETAILS {
@@ -383,12 +481,12 @@ a.active,a:hover {
   }
   nav ul {
     float: left;
-    margin-left: 65px;
+    margin-left: 60px;
   }
   nav ul li {
     display: inline;
     line-height: 70px;
-    margin: 5px;
+    margin: 3px;
   }
   nav ul li a {
     color: white;
@@ -397,16 +495,24 @@ a.active,a:hover {
     border-radius: 3px;
   }
   #Whatisthedifference {
-    font-size: 40pt;
+    font-size: 35pt;
     margin: 50px 35px 0px 35px;
   }
+  #DifferenceFirst {
+    font-size: 17px;
+    margin: 60px 35px 0px 35px;
+  }
   #Difference {
-    font-size: 19px;
+    font-size: 17px;
     margin: 20px 35px 0px 35px;
   }
   #DifferenceH {
-    font-size: 30px;
+    font-size: 25px;
     margin: 50px 35px 0px 35px;
+  }
+  #DifferenceLast {
+    font-size: 17px;
+    margin: 20px 35px 50px 35px;
   }
   .CSSBOXMODEL {
     margin: 30px 50px 0px 50px;
@@ -429,20 +535,68 @@ a.active,a:hover {
     max-width: 60%;
   }
   #Tehoutaewa {
-    font-size: 60pt;
+    font-size: 40pt;
     margin: 50px 35px 0px 35px;
   }
   #Ekore {
-    font-size: 25pt;
+    font-size: 20pt;
     margin: 50px 40px 0px 40px;
   }
   #November {
-    font-size: 18pt;
+    font-size: 15pt;
     margin: 40px 35px 0px 35px;
   }
   #Story {
-    font-size: 14pt;
+    font-size: 12pt;
     margin: 30px 35px 0px 35px;
+  }
+  #StoryLast {
+    font-size: 12pt;
+    margin: 30px 35px 50px 35px;
+  }
+  #Identity {
+    font-size: 40pt;
+    margin: 50px 35px 0px 35px;
+  }
+  #Question {
+    font-size: 18pt;
+    margin: 60px 35px 0px 35px;
+  }
+  #Answer {
+    font-size: 12pt;
+    margin: 30px 35px 0px 35px;
+  }
+  #QuestionFirst {
+    font-size: 18pt;
+    margin: 60px 35px 0px 35px;
+  }
+  #AnswerLast {
+    font-size: 12pt;
+    margin: 30px 35px 50px 35px;
+  }
+  #Learning {
+    font-size: 40pt;
+    margin: 50px 35px 0px 35px;
+  }
+  #Questions {
+    font-size: 18pt;
+    margin: 60px 35px 0px 35px;
+  }
+  #Answers {
+    font-size: 12pt;
+    margin: 30px 35px 0px 35px;
+  }
+  #QuestionsFirst {
+    font-size: 18pt;
+    margin: 70px 35px 0px 35px;
+  }
+  #AnswersLast {
+    font-size: 12pt;
+    margin: 30px 35px 50px 35px;
+  }
+  #Positive {
+    font-size: 12pt;
+    margin: 5px 20px 0px 20px;
   }
 }
 
@@ -463,53 +617,43 @@ a.active,a:hover {
     height: auto;
   }
   h3 {
-    font-size: 30pt;
+    font-size: 22pt;
     margin-top: 70px;
   }
   p {
-    font-size: 18pt;
-    margin-top: 10px;
-    padding-left: 50px;
-    padding-right: 50px;
+    font-size: 15pt;
+    margin: 10px 50px 0px 50px;
+  }
+  #Last {
+    font-size: 15pt;
+    margin: 10px 50px 50px 50px;
   }
   #ABOUTME {
-    font-size: 80pt;
+    font-size: 70pt;
     margin-top: 20px;
   }
-  #AboutmeH {
-    font-size: 20pt;
-    margin: 30px 50px 0px 50px;
-  }
   #Introduction {
-    font-size: 40pt;
+    font-size: 35pt;
     margin-top: 50px;
   }
   #Intro {
-    font-size: 17pt;
-    margin-top: 10px;
-    margin-left: 50px;
-    margin-right: 50px;
-  }
-  #Positive {
-    font-size: 17pt;
-    margin-top: 5px;
-    margin-left: 50px;
-    margin-right: 50px;
+    font-size: 14pt;
+    margin: 30px 50px 0px 50px;
   }
   #BLOG {
-    font-size: 80pt;
+    font-size: 70pt;
     margin-top: 20px;
   }
   #Blog1 {
-    font-size: 23pt;
+    font-size: 21pt;
     margin-top: 50px;
   }
   #CONTACTDETAILS {
-    font-size: 80pt;
+    font-size: 70pt;
     margin-top: 20px;
   }
   #Contact {
-    font-size: 23pt;
+    font-size: 21pt;
     margin-top: 50px;
   }
   nav {
@@ -519,7 +663,7 @@ a.active,a:hover {
   }
   nav ul {
     float: left;
-    margin-left: 70px;
+    margin-left: 65px;
   }
   nav ul li {
     display: inline;
@@ -528,21 +672,29 @@ a.active,a:hover {
   }
   nav ul li a {
     color: white;
-    font-size: 35px;
-    padding: 10px;
+    font-size: 30px;
+    padding: 5px;
     border-radius: 3px;
   }
   #Whatisthedifference {
-    font-size: 45pt;
-    margin: 50px 35px 0px 35px;
+    font-size: 40pt;
+    margin: 50px 50px 0px 50px;
+  }
+  #DifferenceFirst {
+    font-size: 18px;
+    margin: 60px 50px 0px 50px;
   }
   #Difference {
-    font-size: 23px;
-    margin: 20px 35px 0px 35px;
+    font-size: 18px;
+    margin: 20px 50px 0px 50px;
   }
   #DifferenceH {
-    font-size: 37px;
-    margin: 50px 35px 0px 35px;
+    font-size: 24px;
+    margin: 50px 50px 0px 50px;
+  }
+  #DifferenceLast {
+    font-size: 18px;
+    margin: 20px 50px 50px 50px;
   }
   .CSSBOXMODEL {
     margin: 30px 50px 0px 50px;
@@ -565,19 +717,67 @@ a.active,a:hover {
     max-width: 60%;
   }
   #Tehoutaewa {
-    font-size: 75pt;
-    margin: 50px 35px 0px 35px;
+    font-size: 50pt;
+    margin: 50px 50px 0px 50px;
   }
   #Ekore {
-    font-size: 30pt;
-    margin: 50px 40px 0px 40px;
+    font-size: 20pt;
+    margin: 50px 50px 0px 50px;
   }
   #November {
-    font-size: 24pt;
-    margin: 40px 35px 0px 35px;
+    font-size: 16pt;
+    margin: 40px 50px 0px 50px;
   }
   #Story {
-    font-size: 18pt;
-    margin: 30px 35px 0px 35px;
+    font-size: 14pt;
+    margin: 30px 50px 0px 50px;
+  }
+  #StoryLast {
+    font-size: 14pt;
+    margin: 30px 50px 50px 50px;
+  }
+  #Identity {
+    font-size: 40pt;
+    margin: 50px 50px 0px 50px;
+  }
+  #Question {
+    font-size: 19pt;
+    margin: 60px 50px 0px 50px;
+  }
+  #Answer {
+    font-size: 13pt;
+    margin: 30px 50px 0px 50px;
+  }
+  #QuestionFirst {
+    font-size: 19pt;
+    margin: 60px 50px 0px 50px;
+  }
+  #AnswerLast {
+    font-size: 13pt;
+    margin: 30px 50px 50px 50px;
+  }
+  #Learning {
+    font-size: 40pt;
+    margin: 50px 50px 0px 50px;
+  }
+  #Questions {
+    font-size: 19pt;
+    margin: 60px 50px 0px 50px;
+  }
+  #Answers {
+    font-size: 13pt;
+    margin: 30px 50px 0px 50px;
+  }
+  #QuestionsFirst {
+    font-size: 19pt;
+    margin: 70px 50px 0px 50px;
+  }
+  #AnswersLast {
+    font-size: 13pt;
+    margin: 30px 50px 50px 50px;
+  }
+  #Positive {
+    font-size: 13pt;
+    margin: 5px 50px 0px 50px;
   }
 }
