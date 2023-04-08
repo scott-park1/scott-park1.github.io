@@ -3,75 +3,61 @@ body {
   text-align: center;
   font-family: 'Sofia Sans Condensed', sans-serif;
 }
-
 h1 {
   font-size: 110pt;
   margin-top: 80px;
 }
-
 h2 {
   font-size: 40pt;
   margin-top: 100px;
 }
-
 .Avatar {
   border: 5px solid #000000;
   border-radius: 50%;
   margin-top: 100px;
   max-width: 100%;
-  height: auto;
+  height: 500px;
 }
-
 h3 {
   font-size: 20pt;
   margin-top: 100px;
 }
-
 p {
   font-size: 17pt;
   margin: 20px 90px 0px 90px;
 }
-
 #Last {
   font-size: 17pt;
   margin: 20px 90px 50px 90px;
 }
-
 #ABOUTME {
   font-size: 80pt;
   margin-top: 20px;
 }
-
 #Introduction {
   font-size: 35pt;
   margin-top: 50px;
 }
-
 #Intro {
   font-size: 17pt;
   margin: 50px 50px 0px 50px;
 }
-
 #BLOG {
   font-size: 80pt;
   margin-top: 20px;
 }
-
 #Blog1 {
   font-size: 22pt;
   margin-top: 50px;
 }
-
 #CONTACTDETAILS {
   font-size: 80pt;
   margin-top: 20px;
 }
-
 #Contact {
   font-size: 21pt;
   margin-top: 50px;
 }
-
 *{
   padding: 0;
   margin: 0;
@@ -79,163 +65,152 @@ p {
   list-style: none;
   box-sizing: border-box;
 }
-
 nav {
   background-color: burlywood;
   height: 80px;
   width: 100%;
 }
-
 nav ul {
   float: left;
   margin-left: 80px;
 }
-
 nav ul li {
   display: inline;
   line-height: 80px;
   margin: 5px;
 }
-
 nav ul li a {
   color: white;
   font-size: 30px;
   padding: 10px;
   border-radius: 3px;
 }
-
 a.active,a:hover {
   background: #9F8170;
   text-decoration: underline;
 }
-
 #Whatisthedifference {
   font-size: 50pt;
   margin: 50px 50px 0px 50px;
 }
-
 #Difference {
   font-size: 21px;
   margin: 30px 50px 0px 50px;
 }
-
 #DifferenceH {
   font-size: 30px;
   margin: 60px 50px 0px 50px;
 }
-
 #DifferenceFirst {
   font-size: 21px;
   margin: 90px 50px 0px 50px;
 }
-
 #DifferenceLast {
   font-size: 21px;
   margin: 30px 50px 50px 50px;
 }
-
 .CSSBOXMODEL {
   margin: 30px 50px 0px 50px;
   border: 3px solid #000000;
+  width: 500px;
 }
-
 .Margin {
   margin: 30px 50px 0px 50px;
   border: 3px solid #000000;
 }
-
+.MarginC {
+  margin: 30px auto 0px auto;
+  display: block;
+  width: 18%;
+  border: 3px solid #000000;
+}
 .Border {
   margin: 30px 50px 0px 50px;
   border: 3px solid #000000;
+  width: 600px;
 }
-
+.BorderC {
+  margin: 30px auto 0px auto;
+  display: block;
+  width: 18%;
+  border: 3px solid #000000;
+}
 .Padding {
   margin: 30px 50px 0px 50px;
   border: 3px solid #000000;
 }
-
+.PaddingC {
+  margin: 30px auto 0px auto;
+  display: block;
+  width: 18%;
+  border: 3px solid #000000;
+}
 #Tehoutaewa {
   font-size: 50pt;
   margin: 50px 50px 0px 50px;
 }
-
 #Ekore {
   font-size: 24pt;
   margin: 50px 50px 0px 50px;
 }
-
 #November {
   font-size: 18pt;
   margin: 50px 50px 0px 50px;
 }
-
 #Story {
   font-size: 16pt;
   margin: 50px 50px 0px 50px;
 }
-
 #StoryLast {
   font-size: 16pt;
   margin: 50px 50px 50px 50px;
 }
-
 #Identity {
   font-size: 50pt;
   margin: 50px 50px 0px 50px;
 }
-
 #Question {
   font-size: 22pt;
   margin: 60px 50px 0px 50px;
 }
-
 #Answer {
   font-size: 16pt;
   margin: 30px 50px 0px 50px;
 }
-
 #QuestionFirst {
   font-size: 22pt;
   margin: 90px 50px 0px 50px;
 }
-
 #AnswerLast {
   font-size: 16pt;
   margin: 30px 50px 50px 50px;
 }
-
 #Learning {
   font-size: 50pt;
   margin: 50px 50px 0px 50px;
 }
-
 #Questions {
   font-size: 22pt;
   margin: 60px 50px 0px 50px;
 }
-
 #Answers {
   font-size: 16pt;
   margin: 30px 50px 0px 50px;
 }
-
 #QuestionsFirst {
   font-size: 22pt;
   margin: 90px 50px 0px 50px;
 }
-
 #AnswersLast {
   font-size: 16pt;
   margin: 30px 50px 50px 50px;
 }
-
 #Positive {
   font-size: 16pt;
   margin-top: 5px;
   margin-left: 50px;
   margin-right: 50px;
 }
-
 @media (max-width: 480px) and (min-width: 0px) {
   h1 {
     font-size: 60pt;
@@ -340,17 +315,35 @@ a.active,a:hover {
   .Margin {
     margin: 30px 50px 0px 50px;
     border: 2px solid #000000;
-    max-width: 60%;
+    max-width: 50%;
+  }
+  .MarginC {
+    margin: 30px auto 0px auto;
+    display: block;
+    width: 40%;
+    border: 2px solid #000000;
   }
   .Border {
     margin: 30px 50px 0px 50px;
     border: 2px solid #000000;
-    max-width: 80%;
+    max-width: 60%;
+  }
+  .BorderC {
+    margin: 30px auto 0px auto;
+    display: block;
+    width: 40%;
+    border: 2px solid #000000;
   }
   .Padding {
     margin: 30px 50px 0px 50px;
     border: 2px solid #000000;
-    max-width: 60%;
+    max-width: 50%;
+  }
+  .PaddingC {
+    margin: 30px auto 0px auto;
+    display: block;
+    width: 40%;
+    border: 2px solid #000000;
   }
   #Tehoutaewa {
     font-size: 45pt;
@@ -417,7 +410,6 @@ a.active,a:hover {
     margin: 5px 20px 0px 20px;
   }
 }
-
 @media (max-width: 720px) and (min-width: 481px) {
   h1 {
     font-size: 80pt;
@@ -524,15 +516,33 @@ a.active,a:hover {
     border: 2px solid #000000;
     max-width: 50%;
   }
+  .MarginC {
+    margin: 30px auto 0px auto;
+    display: block;
+    width: 35%;
+    border: 2px solid #000000;
+  }
   .Border {
     margin: 30px 50px 0px 50px;
     border: 2px solid #000000;
-    max-width: 75%;
+    max-width: 50%;
+  }
+  .BorderC {
+    margin: 30px auto 0px auto;
+    display: block;
+    width: 35%;
+    border: 2px solid #000000;
   }
   .Padding {
     margin: 30px 50px 0px 50px;
     border: 2px solid #000000;
     max-width: 50%;
+  }
+  .PaddingC {
+    margin: 30px auto 0px auto;
+    display: block;
+    width: 35%;
+    border: 2px solid #000000;
   }
   #Tehoutaewa {
     font-size: 40pt;
@@ -599,7 +609,6 @@ a.active,a:hover {
     margin: 5px 20px 0px 20px;
   }
 }
-
 @media (max-width: 1024px) and (min-width: 721px) {
   h1 {
     font-size: 120pt;
@@ -704,17 +713,35 @@ a.active,a:hover {
   .Margin {
     margin: 30px 50px 0px 50px;
     border: 2px solid #000000;
-    max-width: 60%;
+    max-width: 50%;
+  }
+  .MarginC {
+    margin: 30px auto 0px auto;
+    display: block;
+    width: 30%;
+    border: 2px solid #000000;
   }
   .Border {
     margin: 30px 50px 0px 50px;
     border: 2px solid #000000;
-    max-width: 75%;
+    max-width: 70%;
+  }
+  .BorderC {
+    margin: 30px auto 0px auto;
+    display: block;
+    width: 30%;
+    border: 2px solid #000000;
   }
   .Padding {
     margin: 30px 50px 0px 50px;
     border: 2px solid #000000;
-    max-width: 60%;
+    max-width: 50%;
+  }
+  .PaddingC {
+    margin: 30px auto 0px auto;
+    display: block;
+    width: 30%;
+    border: 2px solid #000000;
   }
   #Tehoutaewa {
     font-size: 50pt;
