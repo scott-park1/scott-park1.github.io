@@ -42,6 +42,10 @@ p {
   font-size: 17pt;
   margin: 50px 50px 0px 50px;
 }
+#IntroLast {
+  font-size: 17pt;
+  margin: 50px 50px 50px 50px;
+}
 #BLOG {
   font-size: 80pt;
   margin-top: 20px;
@@ -251,6 +255,10 @@ a.active,a:hover {
     font-size: 13pt;
     margin: 20px 20px 0px 20px;
   }
+  #IntroLast {
+    font-size: 13pt;
+    margin: 20px 20px 50px 20px;
+  }
   #BLOG {
     font-size: 40pt;
     margin-top: 20px;
@@ -447,8 +455,12 @@ a.active,a:hover {
     margin-top: 50px;
   }
   #Intro {
-    font-size: 14pt;
+    font-size: 15pt;
     margin: 15px 35px 0px 35px;
+  }
+  #IntroLast {
+    font-size: 15pt;
+    margin: 15px 35px 50px 35px;
   }
   #BLOG {
     font-size: 60pt;
@@ -491,11 +503,11 @@ a.active,a:hover {
     margin: 50px 35px 0px 35px;
   }
   #DifferenceFirst {
-    font-size: 19px;
+    font-size: 20px;
     margin: 60px 35px 0px 35px;
   }
   #Difference {
-    font-size: 19px;
+    font-size: 20px;
     margin: 20px 35px 0px 35px;
   }
   #DifferenceH {
@@ -503,7 +515,7 @@ a.active,a:hover {
     margin: 50px 35px 0px 35px;
   }
   #DifferenceLast {
-    font-size: 19px;
+    font-size: 20px;
     margin: 20px 35px 50px 35px;
   }
   .CSSBOXMODEL {
@@ -553,15 +565,15 @@ a.active,a:hover {
     margin: 50px 40px 0px 40px;
   }
   #November {
-    font-size: 15pt;
+    font-size: 16pt;
     margin: 40px 35px 0px 35px;
   }
   #Story {
-    font-size: 14pt;
+    font-size: 15pt;
     margin: 30px 35px 0px 35px;
   }
   #StoryLast {
-    font-size: 14pt;
+    font-size: 15pt;
     margin: 30px 35px 50px 35px;
   }
   #Identity {
@@ -573,7 +585,7 @@ a.active,a:hover {
     margin: 60px 35px 0px 35px;
   }
   #Answer {
-    font-size: 14pt;
+    font-size: 15pt;
     margin: 30px 35px 0px 35px;
   }
   #QuestionFirst {
@@ -581,7 +593,7 @@ a.active,a:hover {
     margin: 60px 35px 0px 35px;
   }
   #AnswerLast {
-    font-size: 14pt;
+    font-size: 15pt;
     margin: 30px 35px 50px 35px;
   }
   #Learning {
@@ -593,7 +605,7 @@ a.active,a:hover {
     margin: 60px 35px 0px 35px;
   }
   #Answers {
-    font-size: 14pt;
+    font-size: 15pt;
     margin: 30px 35px 0px 35px;
   }
   #QuestionsFirst {
@@ -601,11 +613,11 @@ a.active,a:hover {
     margin: 70px 35px 0px 35px;
   }
   #AnswersLast {
-    font-size: 14pt;
+    font-size: 15pt;
     margin: 30px 35px 50px 35px;
   }
   #Positive {
-    font-size: 14pt;
+    font-size: 15pt;
     margin: 5px 20px 0px 20px;
   }
 }
@@ -646,8 +658,12 @@ a.active,a:hover {
     margin-top: 50px;
   }
   #Intro {
-    font-size: 15pt;
+    font-size: 17pt;
     margin: 30px 50px 0px 50px;
+  }
+  #IntroLast {
+    font-size: 17pt;
+    margin: 30px 50px 50px 50px;
   }
   #BLOG {
     font-size: 70pt;
@@ -690,19 +706,19 @@ a.active,a:hover {
     margin: 50px 50px 0px 50px;
   }
   #DifferenceFirst {
-    font-size: 20px;
+    font-size: 22px;
     margin: 60px 50px 0px 50px;
   }
   #Difference {
-    font-size: 20px;
+    font-size: 22px;
     margin: 20px 50px 0px 50px;
   }
   #DifferenceH {
-    font-size: 24px;
+    font-size: 26px;
     margin: 50px 50px 0px 50px;
   }
   #DifferenceLast {
-    font-size: 20px;
+    font-size: 22px;
     margin: 20px 50px 50px 50px;
   }
   .CSSBOXMODEL {
@@ -772,7 +788,7 @@ a.active,a:hover {
     margin: 60px 50px 0px 50px;
   }
   #Answer {
-    font-size: 15pt;
+    font-size: 16pt;
     margin: 30px 50px 0px 50px;
   }
   #QuestionFirst {
@@ -780,7 +796,7 @@ a.active,a:hover {
     margin: 60px 50px 0px 50px;
   }
   #AnswerLast {
-    font-size: 15pt;
+    font-size: 16pt;
     margin: 30px 50px 50px 50px;
   }
   #Learning {
@@ -792,7 +808,7 @@ a.active,a:hover {
     margin: 60px 50px 0px 50px;
   }
   #Answers {
-    font-size: 15pt;
+    font-size: 16pt;
     margin: 30px 50px 0px 50px;
   }
   #QuestionsFirst {
@@ -800,11 +816,11 @@ a.active,a:hover {
     margin: 70px 50px 0px 50px;
   }
   #AnswersLast {
-    font-size: 15pt;
+    font-size: 16pt;
     margin: 30px 50px 50px 50px;
   }
   #Positive {
-    font-size: 15pt;
+    font-size: 16pt;
     margin: 5px 50px 0px 50px;
   }
 }
