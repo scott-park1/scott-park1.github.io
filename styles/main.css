@@ -215,6 +215,22 @@ a.active,a:hover {
   margin-left: 50px;
   margin-right: 50px;
 }
+.coding {
+  margin: 30px 50px 0px 50px;
+  border: 3px solid #000000;
+  width: 800px;
+}
+.arraysobjects {
+  margin: 30px 50px 0px 50px;
+  border: 3px solid #000000;
+  width: 600px;
+}
+.functions {
+  margin: 30px auto 0px auto;
+  border: 3px solid #000000;
+  width: 400px;
+  display: block;
+}
 @media (max-width: 480px) and (min-width: 0px) {
   h1 {
     font-size: 60pt;
@@ -316,41 +332,41 @@ a.active,a:hover {
     margin: 20px 35px 50px 35px;
   }
   .CSSBOXMODEL {
-    margin: 30px 50px 0px 50px;
+    margin: 30px 30px 0px 30px;
     border: 2px solid #000000;
-    max-width: 60%;
+    max-width: 70%;
   }
   .Margin {
-    margin: 30px 50px 0px 50px;
+    margin: 30px 30px 0px 30px;
     border: 2px solid #000000;
-    max-width: 50%;
+    max-width: 60%;
   }
   .MarginC {
     margin: 30px auto 0px auto;
     display: block;
-    width: 40%;
+    width: 50%;
     border: 2px solid #000000;
   }
   .Border {
-    margin: 30px 50px 0px 50px;
+    margin: 30px 30px 0px 30px;
     border: 2px solid #000000;
-    max-width: 60%;
+    max-width: 80%;
   }
   .BorderC {
     margin: 30px auto 0px auto;
     display: block;
-    width: 40%;
+    width: 50%;
     border: 2px solid #000000;
   }
   .Padding {
-    margin: 30px 50px 0px 50px;
+    margin: 30px 30px 0px 30px;
     border: 2px solid #000000;
-    max-width: 50%;
+    max-width: 60%;
   }
   .PaddingC {
     margin: 30px auto 0px auto;
     display: block;
-    width: 40%;
+    width: 50%;
     border: 2px solid #000000;
   }
   #Tehoutaewa {
@@ -416,6 +432,22 @@ a.active,a:hover {
   #Positive {
     font-size: 14pt;
     margin: 5px 20px 0px 20px;
+  }
+  .coding {
+    margin: 30px 10px 0px 10px;
+    border: 3px solid #000000;
+    max-width: 90%;
+  }
+  .arraysobjects {
+    margin: 30px 10px 0px 10px;
+    border: 3px solid #000000;
+    max-width: 90%;
+  }
+  .functions {
+    margin: 30px auto 0px auto;
+    border: 3px solid #000000;
+    max-width: 70%;
+    display: block;
   }
 }
 @media (max-width: 720px) and (min-width: 481px) {
@@ -519,41 +551,41 @@ a.active,a:hover {
     margin: 20px 35px 50px 35px;
   }
   .CSSBOXMODEL {
-    margin: 30px 50px 0px 50px;
+    margin: 30px 30px 0px 30px;
     border: 2px solid #000000;
-    max-width: 50%;
+    max-width: 60%;
   }
   .Margin {
-    margin: 30px 50px 0px 50px;
+    margin: 30px 30px 0px 30px;
     border: 2px solid #000000;
-    max-width: 50%;
+    max-width: 60%;
   }
   .MarginC {
     margin: 30px auto 0px auto;
     display: block;
-    width: 35%;
+    width: 40%;
     border: 2px solid #000000;
   }
   .Border {
-    margin: 30px 50px 0px 50px;
+    margin: 30px 30px 0px 30px;
     border: 2px solid #000000;
-    max-width: 50%;
+    max-width: 80%;
   }
   .BorderC {
     margin: 30px auto 0px auto;
     display: block;
-    width: 35%;
+    width: 40%;
     border: 2px solid #000000;
   }
   .Padding {
-    margin: 30px 50px 0px 50px;
+    margin: 30px 30px 0px 30px;
     border: 2px solid #000000;
-    max-width: 50%;
+    max-width: 60%;
   }
   .PaddingC {
     margin: 30px auto 0px auto;
     display: block;
-    width: 35%;
+    width: 40%;
     border: 2px solid #000000;
   }
   #Tehoutaewa {
@@ -619,6 +651,22 @@ a.active,a:hover {
   #Positive {
     font-size: 15pt;
     margin: 5px 20px 0px 20px;
+  }
+  .coding {
+    margin: 30px 10px 0px 10px;
+    border: 3px solid #000000;
+    max-width: 80%;
+  }
+  .arraysobjects {
+    margin: 30px 10px 0px 10px;
+    border: 3px solid #000000;
+    max-width: 85%;
+  }
+  .functions {
+    margin: 30px auto 0px auto;
+    border: 3px solid #000000;
+    max-width: 50%;
+    display: block;
   }
 }
 @media (max-width: 1024px) and (min-width: 721px) {
