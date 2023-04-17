@@ -231,6 +231,17 @@ a.active,a:hover {
   width: 400px;
   display: block;
 }
+#QuestionsNeuro {
+  font-size: 25pt;
+  margin: 90px 50px 0px 50px;
+}
+table, tr, th {
+  border: 2px solid black;
+  border-collapse: collapse;
+  margin: 50px auto 50px auto;
+  font-size: 16pt;
+  padding: 10px;
+}
 @media (max-width: 480px) and (min-width: 0px) {
   h1 {
     font-size: 60pt;
@@ -448,6 +459,17 @@ a.active,a:hover {
     border: 3px solid #000000;
     max-width: 70%;
     display: block;
+  }
+  #QuestionsNeuro {
+    font-size: 22pt;
+    margin: 90px 50px 0px 50px;
+  }
+  table, tr, th {
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin: 50px 10px 50px 10px;
+    font-size: 14pt;
+    padding: 5px;
   }
 }
 @media (max-width: 720px) and (min-width: 481px) {
@@ -668,6 +690,17 @@ a.active,a:hover {
     max-width: 50%;
     display: block;
   }
+  #QuestionsNeuro {
+    font-size: 22pt;
+    margin: 90px 50px 0px 50px;
+  }
+  table, tr, th {
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin: 50px 10px 50px 10px;
+    font-size: 15pt;
+    padding: 5px;
+  }
 }
 @media (max-width: 1024px) and (min-width: 721px) {
   h1 {
@@ -870,5 +903,16 @@ a.active,a:hover {
   #Positive {
     font-size: 16pt;
     margin: 5px 50px 0px 50px;
+  }
+  #QuestionsNeuro {
+    font-size: 23pt;
+    margin: 90px 50px 0px 50px;
+  }
+  table, tr, th {
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin: 50px auto 50px auto;
+    font-size: 16pt;
+    padding: 10px;
   }
 }
