@@ -54,6 +54,14 @@ p {
   font-size: 22pt;
   margin-top: 50px;
 }
+#Blogs {
+  font-size: 17pt;
+  margin: 30px 90px 0px 90px;
+}
+#BlogLast {
+  font-size: 17pt;
+  margin: 30px 90px 50px 90px;
+}
 #CONTACTDETAILS {
   font-size: 80pt;
   margin-top: 20px;
@@ -294,6 +302,14 @@ table, tr, th {
     font-size: 17pt;
     margin-top: 50px;
   }
+  #Blogs {
+    font-size: 13pt;
+    margin: 20px 70px 0px 70px;
+  }
+  #BlogLast {
+    font-size: 13pt;
+    margin: 20px 70px 50px 70px;
+  }
   #CONTACTDETAILS {
     font-size: 40pt;
     margin-top: 20px;
@@ -524,6 +540,14 @@ table, tr, th {
     font-size: 20pt;
     margin-top: 50px;
   }
+  #Blogs {
+    font-size: 15pt;
+    margin: 30px 50px 0px 50px;
+  }
+  #BlogLast {
+    font-size: 15pt;
+    margin: 30px 50px 50px 50px;
+  }
   #CONTACTDETAILS {
     font-size: 60pt;
     margin-top: 20px;
@@ -753,6 +777,14 @@ table, tr, th {
   #Blog1 {
     font-size: 22pt;
     margin-top: 50px;
+  }
+  #Blogs {
+    font-size: 16pt;
+    margin: 30px 50px 0px 50px;
+  }
+  #BlogLast {
+    font-size: 16pt;
+    margin: 30px 50px 50px 50px;
   }
   #CONTACTDETAILS {
     font-size: 70pt;
